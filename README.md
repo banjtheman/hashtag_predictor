@@ -56,7 +56,7 @@ curl http://localhost:5000/?picture=https://blog.bulletproof.com/wp-content/uplo
 ## Bouns
 With the basics done, can you now build something with your hashtag image classifier? Here are some ideas...
 
-* Machine Learning - Can you create better models, Use Tensorboard to compare models, try changing hyperparameters and getting more data  
-* DevOps - Can you create a CI/CD pipeline to get data, train a model, and deploy the image to Cloud?  
+* Machine Learning - Can you create better models, Use Tensorboard to compare models, try changing hyperparameters and getting more data, try using Mobilenet.    
+* DevOps - Can you create a CI/CD pipeline to get data, train a model, and deploy the image to Cloud?  Use tensorflow_serving instead of flask?
 * UI/UX - Make a UI that shows a picture from a URL and then displays the predictions, maybe even compare two images    
 * Dev - Flask server is pretty brittle, can you add error handling, how about return data in JSON, or make a training endpoint?
