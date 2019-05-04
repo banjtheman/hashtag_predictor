@@ -22,6 +22,7 @@ In order to get data we will leverage instalooter(https://github.com/althonos/In
 Its import to use the -n flag to limit how many images you want. The example below highlights getting the latest 50 images from 3 different hashtags. 
 
 ```
+#To use.. instalooter hashtag YOUR_HASHTAG hashtags/YOUR_HASHTAG -n 50
 instalooter hashtag paleo hashtags/paleo -n 50  
 instalooter hashtag keto hashtags/keto -n 50  
 instalooter hashtag python hashtags/python -n 50  
@@ -57,6 +58,6 @@ curl http://localhost:5000/?picture=https://blog.bulletproof.com/wp-content/uplo
 With the basics done, can you now build something with your hashtag image classifier? Here are some ideas...
 
 * Machine Learning - Can you create better models, Use Tensorboard to compare models, try changing hyperparameters and getting more data, try using Mobilenet.    
-* DevOps - Can you create a CI/CD pipeline to get data, train a model, and deploy the image to Cloud?  Use tensorflow_serving instead of flask?
+* DevOps - Can you create a CI/CD pipeline to get data, train a model, and deploy the image to Cloud?  Use tensorflow_serving instead of flask? How about saving each model
 * UI/UX - Make a UI that shows a picture from a URL and then displays the predictions, maybe even compare two images    
 * Dev - Flask server is pretty brittle, can you add error handling, how about return data in JSON, or make a training endpoint?
