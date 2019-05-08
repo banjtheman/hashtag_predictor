@@ -42,7 +42,7 @@ For more info visit: https://www.tensorflow.org/hub/tutorials/image_retraining
 ## Deploy Model 
 When the model has finished training, we can deploy a RESTful API endpoint with flask from the container to make live predictions
 
-Start the flash serevr with
+Start the flash server with
 `
 ./app.sh
 `
