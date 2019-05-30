@@ -18,14 +18,14 @@ After the image is built, we can use the run script to start our working environ
 `
 
 ## Get Data
-In order to get data we will leverage instalooter(https://github.com/althonos/InstaLooter) to grab images
-Its import to use the -n flag to limit how many images you want. The example below highlights getting the latest 50 images from 3 different hashtags. 
+In order to get data we will leverage instagram-scraper(https://github.com/rarcega/instagram-scraper) to grab images
+Its import to use the --maximum flag to limit how many images you want. The example below highlights getting the latest 50 images from 3 different hashtags. 
 
 ```
-#To use.. instalooter hashtag YOUR_HASHTAG hashtags/YOUR_HASHTAG -n 50
-instalooter hashtag paleo hashtags/paleo -n 50  
-instalooter hashtag keto hashtags/keto -n 50  
-instalooter hashtag python hashtags/python -n 50  
+#To use.. instagram-scraper HASHTAG --tag --destination hashtags/HASHTAG --maximum 50
+instagram-scraper paleo --tag --destination hashtags/paleo --maximum 50
+instagram-scraper keto --tag --destination hashtags/keto --maximum 50
+instagram-scraper python --tag --destination hashtags/python --maximum 50
 ```
 
 The more images the longer training takes, but better predictions can be made.

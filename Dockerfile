@@ -2,7 +2,7 @@ FROM tensorflow/tensorflow
 #Install deps
 RUN apt-get update
 RUN apt-get install -y curl vim 
-RUN pip install instalooter
+RUN pip install instagram-scraper
 RUN pip install tensorflow-hub
 RUN pip install numpy
 RUN pip install flask
